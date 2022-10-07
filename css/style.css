@@ -5,6 +5,7 @@
 
 html, body {
    height: 100%;
+   
 }
 
 body {
@@ -70,4 +71,14 @@ h2 {
    color: grey;
    display: block;
    margin-top: 10px;
+   font-size: 10px;
+}
+
+.links-list li a.active {
+   box-shadow: 0 0 20px white;
+   color: rgba(0,212,255,1);
+}
+
+.links-list.second {
+   margin-top: 30px;
 }
